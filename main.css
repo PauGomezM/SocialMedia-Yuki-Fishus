@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@media (min-width: 1023px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+    }
+
+    .yuki-img {
+        padding-top: 20px;
+        pointer-events: none;
+        display: block;
+        width: 50%;
+    }
+
+    .fishus-img {
+        padding-top: 20px;
+        pointer-events: none;
+        display: block;
+        width: 50%;
+    }
+
+    .yuki {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: top;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+    }
+
+    .fishus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: top;
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .yuki-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .fishus-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .yuki-socialmedia {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    .fishus-socialmedia {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    .iconY {
+        margin-bottom: 20px;
+        width: 15%;
+        cursor: pointer;
+    }
+
+    .iconY:hover {
+        opacity: 80%;
+    }
+
+    .iconF {
+        margin-bottom: 20px;
+        width: 15%;
+        cursor: pointer;
+    }
+
+    .iconF:hover {
+        opacity: 80%;
+    }
+
+    .yuki-links {
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+    }
+
+    .fishus-links {
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+    }
+
+    .yuki-fb-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .yuki-ig-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .yuki-yt-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .fishus-fb-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .fishus-ig-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .fishus-yt-links {
+        position: absolute;
+        visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        width: 38vw;
+    }
+
+    .sm-link-yuki-fb {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(0, 76, 96);
+        background: linear-gradient(90deg, rgba(0, 76, 96, 1) 0%, rgba(9, 73, 121, 1) 25%, rgb(0, 176, 211) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-yuki-ig {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(88, 0, 148);
+        background: linear-gradient(90deg, rgba(88, 0, 148, 1) 0%, rgba(194, 0, 0, 1) 50%, rgba(195, 114, 0, 1) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-yuki-yt {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(93, 0, 0);
+        background: linear-gradient(90deg, rgba(93, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 30%, rgba(215, 0, 0, 1) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-yuki-fb:hover {
+        opacity: 80%;
+    }
+    .sm-link-yuki-ig:hover {
+        opacity: 80%;
+    }
+    .sm-link-yuki-yt:hover {
+        opacity: 80%;
+    }
+
+    .sm-link-fishus-fb {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(0, 76, 96);
+        background: linear-gradient(90deg, rgba(0, 76, 96, 1) 0%, rgba(9, 73, 121, 1) 25%, rgb(0, 176, 211) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-fishus-ig {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(88, 0, 148);
+        background: linear-gradient(90deg, rgba(88, 0, 148, 1) 0%, rgba(194, 0, 0, 1) 50%, rgba(195, 114, 0, 1) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-fishus-yt {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgb(93, 0, 0);
+        background: linear-gradient(90deg, rgba(93, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 30%, rgba(215, 0, 0, 1) 100%);
+        padding: 8px;
+        margin: 5px;
+        flex-basis: 30%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .sm-link-fishus-fb:hover {
+        opacity: 80%;
+    }
+    .sm-link-fishus-ig:hover {
+        opacity: 80%;
+    }
+    .sm-link-fishus-yt:hover {
+        opacity: 80%;
+    }
+
+    .sm-icon {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        border: solid rgb(200, 200, 200) 2px;
+        border-radius: 50px;
+    }
+}
+
+.Yuki-bubble {
+    display: none;
+}
+
+.Fishus-bubble {
+    display: none;
+}
+
+/************************ANIMATIONS****************/
+.animate {
+    animation-duration: 0.75s;
+    animation-delay: 0.5s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+}
+
+.animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+}
+
+@keyframes animate-glow {
+    0% {
+        opacity: 0;
+        transform: scale(0.2, 0.2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+.delay {
+    animation-delay: 0.2s;
+}
+
+.delay-1 {
+    animation-delay: 0.6s;
+}
+
+.delay-2 {
+    animation-delay: 0.7s;
+}
+
+.delay-3 {
+    animation-delay: 0.8s;
+}
+
+.fade-out {
+    opacity: 0.3;
+    transition: opacity 0.5s ease-out;
+}

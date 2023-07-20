@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuki-Fishus</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+</head>
+
+<body>
+    <div class="yuki">
+        <img class="yuki-img animate glow delay" src="img/Yuki.png" onclick="showYuki()">
+        <div class="yuki-section">
+            <div class="yuki-socialmedia">
+                <img class="iconY animate glow delay-1" id="icon-fb-yuki" src="img/FB.png" onclick="toggleElements(fbYuki)">
+                <img class="iconY animate glow delay-2" id="icon-ig-yuki" src="img/IG.png" onclick="toggleElements(igYuki)">
+                <img class="iconY animate glow delay-3" id="icon-yt-yuki" src="img/YT.png" onclick="toggleElements(ytYuki)">
+            </div>
+            <div class="yuki-links">
+                <div class="yuki-fb-links">
+                    <a class="sm-link-yuki-fb " href="https://www.facebook.com/yukicompetition" target="_blank"><img src="img/Yuki-fb-competition.png" class="sm-icon">Yuki Competition</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukicreativeseries/" target="_blank"><img src="img/Yuki-fb-Creative-series.png" class="sm-icon">Yuki Creative</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yuki.freshwater/" target="_blank"><img src="img/Yuki-Fb-Freshwater.png" class="sm-icon">Yuki Freshwater</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukispain/" target="_blank"><img src="img/Yuki-fb-España.png" class="sm-icon">Yuki Spain</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/YukiCompetitionFrance/" target="_blank"><img src="img/Yuki-fb-France.png" class="sm-icon">Yuki France</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukicompetitiongermany/" target="_blank"><img src="img/yuki-fb-Germany.png" class="sm-icon">Yuki Germany</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/YukiBelgium/" target="_blank"><img src="img/Yuki-FB-Belgica.png" class="sm-icon">Yuki Belgium</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukiukireland/" target="_blank"><img src="img/Yuki-fb-uk-ireland.png" class="sm-icon">Yuki UK & Ireland</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukicompetitionportugal" target="_blank"><img src="img/Yuki-fb-Portugal.png" class="sm-icon">Yuki Portugal</a>
+                    <a class="sm-link-yuki-fb" href="https://www.facebook.com/yukiargentina/" target="_blank"><img src="img/Yuki-fb-Argentina.png" class="sm-icon">Yuki Argentina</a>
+                </div>
+                <div class="yuki-ig-links">
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yukicompetition/" target="_blank"><img src="img/Yuki-fb-competition.png" class="sm-icon">Yuki Competition</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yuki_creative/" target="_blank"><img src="img/Yuki-fb-Creative-series.png" class="sm-icon">Yuki Creative</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yuki_freshwater_fishing/" target="_blank"><img src="img/Yuki-Fb-Freshwater.png" class="sm-icon">Yuki Freshwater</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yuki_deutschland/" target="_blank"><img src="img/yuki-fb-Germany.png" class="sm-icon">Yuki Germany</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/ybelgium/" target="_blank"><img src="img/Yuki-FB-Belgica.png" class="sm-icon">Yuki Belgium</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yuki.poland/" target="_blank"><img src="" class="sm-icon">Yuki Poland</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yukiteamitalia/" target="_blank"><img src="" class="sm-icon">Yuki Italia</a>
+                    <a class="sm-link-yuki-ig" href="https://www.instagram.com/yukicompetitionargentina/" target="_blank"><img src="img/Yuki-fb-Argentina.png" class="sm-icon">Yuki Argentina</a>
+                </div>
+                <div class="yuki-yt-links">
+                    <a class="sm-link-yuki-yt" href="https://www.youtube.com/@yukicompetition" target="_blank"><img src="img/Yuki-fb-competition.png" class="sm-icon">Yuki Competition</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fishus">
+        <img class="fishus-img animate glow delay" src="img/Fishus.png" onclick="showFishus()">
+        <div class="fishus-section">
+            <div class="fishus-socialmedia">
+                <img class="iconF animate glow delay-1" id="icon-fb-fishus" src="img/FB.png" onclick="toggleElements(fbFishus)">
+                <img class="iconF animate glow delay-2" id="icon-ig-fishus" src="img/IG.png" onclick="toggleElements(igFishus)">
+                <img class="iconF animate glow delay-3" id="icon-yt-fishus" src="img/YT.png" onclick="toggleElements(ytFishus)">
+            </div>
+            <div class="fishus-links">
+               <div class="fishus-fb-links">
+                    <a class="sm-link-fishus-fb" href="https://www.facebook.com/fishuslure" target="_blank"><img src="img/Fishus-fb-Lures.png" class="sm-icon">Fishus Lures</a>
+                    <a class="sm-link-fishus-fb" href="https://www.facebook.com/fishusfrance/" target="_blank"><img src="img/Fishus-fb-France.png" class="sm-icon">Fishus France</a>
+                    <a class="sm-link-fishus-fb" href="https://www.facebook.com/FishusGermany/" target="_blank"><img src="img/Fishus-fb-Germany.png" class="sm-icon">Fishus Germany</a>
+                    <a class="sm-link-fishus-fb" href="https://www.facebook.com/fishus.uk.ireland/" target="_blank"><img src="img/Fishus-fb-UK-Ireland.png" class="sm-icon">Fishus UK & Ireland</a>
+                </div>
+                <div class="fishus-ig-links">
+                    <a class="sm-link-fishus-ig" href="https://www.instagram.com/fishuslures/" target="_blank"><img src="img/Fishus-fb-Lures.png" class="sm-icon">Fishus Lures</a>
+                    <a class="sm-link-fishus-ig" href="https://www.instagram.com/fishus_france/" target="_blank"><img src="img/Fishus-fb-France.png" class="sm-icon">Fishus France</a>
+                    <a class="sm-link-fishus-ig" href="https://www.instagram.com/fishusgermany/" target="_blank"><img src="img/Fishus-fb-Germany.png" class="sm-icon">Fishus Germany</a>
+                </div>
+                <div class="fishus-yt-links">
+                    <a class="sm-link-fishus-yt" href="https://www.youtube.com/@fishuslures/videos" target="_blank"><img src="img/Fishus-fb-Lures.png" class="sm-icon">Fishus Lures</a>
+                    <a class="sm-link-fishus-yt" href="https://www.youtube.com/@LurenzoKnowHow/videos" target="_blank"><img src="img/lurenzo.jpg" class="sm-icon">Lurenzo Know How</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Yuki-bubble animate glow delay-3" onclick="showYuki()"><img class="go-to-img" src="img/Yuki.png"></div>
+    <div class="Fishus-bubble animate glow delay-3" onclick="showFishus()"><img class="go-to-img" src="img/Fishus.png"></div>
+</body>
+<script src="main.js"></script>
+
+</html>
