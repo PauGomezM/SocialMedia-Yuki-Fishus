@@ -78,6 +78,8 @@ const yuki = document.querySelector(".yuki");
 const fishus = document.querySelector(".fishus");
 const yukiBubble = document.querySelector(".Yuki-bubble");
 const fishusBubble = document.querySelector(".Fishus-bubble");
+const yukiImg = document.querySelector(".yuki-img");
+const fishusImg = document.querySelector(".fishus-img");
 
 function resetStyles() {
     yukiSection.style.display = "none";
@@ -95,6 +97,13 @@ function resetStyles() {
     resetStyles();
     yukiSection.style.display = "flex";
     yuki.style.height = "100vh";
+    //yuki img
+    yukiImg.style.marginTop = "20px";
+    yukiImg.style.padding = "none";
+    yukiImg.style.border = "none";
+    yukiImg.style.borderRadius = "none";
+    yukiImg.style.boxShadow = "none";
+    //fishus
     fishusBubble.style.display = "flex";
     fishus.style.display = "none";
     console.log("Yuki bubble clicked");
@@ -104,6 +113,14 @@ function resetStyles() {
     resetStyles();
     fishusSection.style.display = "flex";
     fishus.style.height = "100vh";
+    //fishus img
+    fishusImg.style.marginTop = "20px";
+    fishusImg.style.marginTop = "20px";
+    fishusImg.style.padding = "none";
+    fishusImg.style.border = "none";
+    fishusImg.style.borderRadius = "none";
+    fishusImg.style.boxShadow = "none";
+    //yuki
     yukiBubble.style.display = "flex";
     yuki.style.display = "none";
     console.log("Fishus bubble clicked");
